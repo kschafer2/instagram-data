@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class InstagramDataApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InstagramDataApplication.class, args);
+		SpringApplication.exit(SpringApplication.run(InstagramDataApplication.class, args));
 	}
-
 }
